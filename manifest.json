@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Any Script Loader",
+  "version": "1.0",
+  "description": "Load and run any script into the current tab.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
