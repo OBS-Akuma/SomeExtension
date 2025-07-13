@@ -1,5 +1,5 @@
 // Get the URL for the custom skin image
-const customSkinLink = chrome.runtime.getURL("Character Skin Swapper/skin.png");
+const customSkinLink = chrome.runtime.getURL("https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Gentleman-texture.png");
 
 // Inject the external script
 const mainScript = document.createElement('script');
