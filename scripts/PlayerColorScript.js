@@ -1,6 +1,6 @@
 /* from irrvlo */
 /* edited version of custom skin link from bkc, updated to fix muzzle img */
-const customSkinLink = "https://media.discordapp.net/attachments/1010612280775422093/1046918434761482280/headpinkbodygreen.png?ex=66c3c9c5&is=66c27845&hm=8814ea3a8680227ada49925bf10accdf22834216169ce05ae93dd41b0614903c&=&format=webp&quality=lossless";
+const customSkinLink = "https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Gentleman-texture.png";
 
 /* DONT CHANGE ANYTHING BELOW */
 
