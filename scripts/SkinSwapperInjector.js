@@ -1,4 +1,4 @@
-let customSkinLink = "Character Skin Swapper/skin.png";  // Placeholder for the skin link
+let customSkinLink = "https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Gentleman-texture.png";  // Placeholder for the skin link
 
 // Listen for the event dispatched by contentScript.js to set `customSkinLink`
 window.addEventListener('setCustomSkinLink', (event) => {
