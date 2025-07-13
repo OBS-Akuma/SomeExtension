@@ -7,6 +7,7 @@ const glbRedirects = {
   'f625b5fedc1481a49d36748e7b19b943.glb': 'https://kirkamiddlemenscripts.github.io/Main/f625b5fedc1481a49d36748e7b19b943.glb',
   'f5575cfe08a74b6d747a0cef44d3629b.glb': 'https://kirkamiddlemenscripts.github.io/Main/f5575cfe08a74b6d747a0cef44d3629b.glb',
   'fe77594ae4a78d6d85e28f834d0ff6f4.glb': 'https://kirkamiddlemenscripts.github.io/Main/fe77594ae4a78d6d85e28f834d0ff6f4.glb',
+  'texture.b2a49027.webp': '',
 };
 
 const originalFetch = window.fetch;
