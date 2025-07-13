@@ -1,7 +1,7 @@
 const scriptNames = [
   "PlayerColorScript.js",
   "PlayerCountScript.js",
-  "CustomGlbsScript.js"
+  "PlayerGlbsScript.js"
 ];
 
 scriptNames.forEach(scriptName => {
