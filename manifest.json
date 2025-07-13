@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Auto Script Injector",
   "version": "1.0",
-  "description": "Automatically injects a script from /scripts/ into the current page.",
+  "description": "Automatically injects scripts from /scripts/ folder.",
   "permissions": ["scripting", "activeTab"],
   "background": {
     "service_worker": "background.js"
@@ -15,5 +15,13 @@
   ],
   "icons": {
     "16": "icon.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "scripts/*"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
