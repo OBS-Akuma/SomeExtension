@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Any Script Loader",
+  "name": "Auto Script Loader",
   "version": "1.0",
-  "description": "Load and run any script into the current tab.",
+  "description": "Automatically inject a predefined script into any page.",
   "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icon.png"
-    }
+    "default_icon": "icon.png"
   },
   "icons": {
     "16": "icon.png"
